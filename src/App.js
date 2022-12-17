@@ -1,8 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import AboutPage from "./pages/about/AboutPage";
 import HomePage from "./pages/home/HomePage";
-import MenuBar from "./components/menuBar/MenuBar";
-import Header from "./components/header/Header";
 
 function App() {
   return (

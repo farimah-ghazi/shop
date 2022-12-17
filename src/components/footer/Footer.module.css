@@ -1,0 +1,37 @@
+.containerFluid{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(1, 44, 95);
+   
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+   
+}
+h4{
+    color: white;
+    font-size: 20px;
+
+}
+.address p:first-of-type{
+    color: white;
+    text-align: justify;
+    width: 250px;
+ 
+}
+.trust img{
+    width: 100px;
+    height: 100px;
+    margin-top: 60px;
+    margin-right: 30px;
+
+}

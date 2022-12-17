@@ -18,7 +18,7 @@ function MenuBar() {
             <a href="#">سبدخرید</a>
           </li>
           <li>
-            <a href="#">درباره ما</a>
+            <a href="../../pages/about/AboutPage.js">درباره ما</a>
           </li>
         </ul>
       </div>
