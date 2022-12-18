@@ -28,7 +28,7 @@ function Category() {
         <a href="#"><img src={dressJPG} /></a>
         </div>
         <div className={styles.shirt}>
-        <a href="#"><img src={shirtJPG} /></a>
+        <a href="./categoryShirt"><img src={shirtJPG} /></a>
         </div>
       </div>
     </div>

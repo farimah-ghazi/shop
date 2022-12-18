@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.sale{
+    width: 700px;
+    height: 50px;
+    margin-right: 380px;
+    margin-bottom: 300px;
+    box-shadow: 0 0 1px #000;
+}
+.sale img{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin: 10px;
+}

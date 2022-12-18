@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.category{
+    display: flex;
+    flex-direction: row;
+    margin-right: 180px;
+    gap: 80px;
+}
+.category img{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    
+}
