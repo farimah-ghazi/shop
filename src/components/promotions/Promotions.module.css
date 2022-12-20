@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     box-shadow: 0px 0px 4px #000;
+    background: linear-gradient(to bottom, #0266f3 0%, #08074edf 100%);
+
 }
 .container{
     display: flex;
@@ -15,6 +17,7 @@
 }
 .shoes ,.pant ,.dress,.shirt{
     position: relative;
+    margin-bottom: 70px;
 }
  .red{
     position: absolute;
