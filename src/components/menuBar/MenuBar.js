@@ -14,7 +14,6 @@ function MenuBar() {
             <a href="#">محصولات</a>
           </li>
           <li>
-            
             <a href="#">سبدخرید</a>
           </li>
           <li>

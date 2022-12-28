@@ -5,17 +5,16 @@ import Category from "../../components/category/Category";
 import Features from "../../components/features/Features";
 import Promotions from "../../components/promotions/Promotions";
 import Footer from "../../components/footer/Footer";
+import Layout from "../../components/layout/Layout";
 
 function HomePage() {
   return (
-    <div>
-      <MenuBar />
+    <>
       <Header/>
       <Category/>
       <Features/>
       <Promotions/>
-      <Footer/>
-    </div>
+    </>
   );
 }
 
