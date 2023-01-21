@@ -6,10 +6,70 @@
 
 }
 .container{
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     gap: 80px;
-    margin-right: 180px;
+    margin-right: 180px; */
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 979px;
+    /* margin: 0 auto; */
+  height: 269px;
+  overflow: hidden;
+  border-top: 20px solid rgb(1, 1, 105);
+  border-bottom: 20px solid rgb(1, 1, 105);
+  border-left: 2px solid rgb(1, 1, 105);
+  border-right: 2px solid rgb(1, 1, 105);
+  border-top-left-radius: 36px;
+  border-bottom-left-radius: 36px;
+    background-color:rgb(1, 1, 105) ;
+    
+  
+  gap: 25px;
+}
+.promotBox{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    border-radius: 36px;
+  margin-bottom: 70px;
+  overflow: hidden;
+
+
+
+}
+
+.promotTitle{
+    background-color:rgb(1, 1, 105) ;
+    width: 300px;
+    height: 269px;
+    border-top-right-radius: 36px;
+    border-bottom-right-radius: 36px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.promotTitle h3{
+    margin-top: -57px;
+    color: white;
+    font-size: 42px;
+    margin-right: 40px;
+}
+.promotBox:hover h3{
+    margin-top: 0px;
+    transition: 1s;
+}
+.promotTitle p{
+    color: white;
+    font-size: 20px;
+    margin-right: 40px;
+    text-align: center;
+    
+
+}
+.container img{
+    border-radius: 20px;
 }
 .pant img{
     width: 225px;
@@ -18,6 +78,10 @@
 .shoes ,.pant ,.dress,.shirt{
     position: relative;
     margin-bottom: 70px;
+}
+.shoes img{
+    width: 225px;
+    height: 229px;
 }
  .red{
     position: absolute;

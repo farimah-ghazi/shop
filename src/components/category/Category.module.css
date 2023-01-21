@@ -7,24 +7,67 @@
 
 }
 .container{
+    position: relative;
     display: flex;
     flex-direction: row;
-    gap: 80px;
-    margin-right: 180px;
+    width: 960px;
+    margin: 0 auto;
+  height: 269px;
+  overflow: hidden;
+  border-top: 20px solid rgb(1, 1, 105);
+  border-bottom: 20px solid rgb(1, 1, 105);
+  border-left: 2px solid rgb(1, 1, 105);
+  border-right: 2px solid rgb(1, 1, 105);
+  border-radius: 20px;
+  gap: 245px;
+  margin-bottom: 70px;
+  
+    /* gap: 80px; */
+    /* margin-right: 180px; */
 }
+.sample{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.container img{
+    width: 225px;
+    height: 229px;
+    margin-bottom: 70px;
+    margin-right: 30px; 
+    /* position: absolute; */
+    
+}
+ .next ,.prev{
+    position: absolute;
+    top: 45%;
+    font-size: 40px;
+}
+.next{
+    right: 20px;
+}
+.prev{
+    left: 20px;
+}
+
 .pant img{
     width: 225px;
     height: 229px;
     margin-bottom: 70px;
+
 }
 .dress img{  
     width: 225px;
     height: 229px;
+    
 }
 .shirt img{
     width: 225px;
     height: 229px;
-}
+    
+} 
 h2{
     color: rgba(15, 15, 136, 0.977);
     margin-right: 20px;

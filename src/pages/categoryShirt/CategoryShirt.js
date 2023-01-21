@@ -10,15 +10,38 @@ import shirt6JPG from "../../assets/sampleshirt/shirt6.jpg";
 import shirt7JPG from "../../assets/sampleshirt/shirt7.jpg";
 import shirt8JPG from "../../assets/sampleshirt/shirt8.jpg";
 import Layout from "../../components/layout/Layout";
+import { useEffect, useState } from "react";
 
 function CategoryShirt() {
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    fetch("https://dummyjson.com/products")
+      .then((response) => {
+        return response.json();
+      })
+      .then((result) => {
+        setProducts(result.products)
+      });
+  }, []);
+
   return (
     <>
       <div className={styles.container}>
         <h2>کفش اسپرت</h2>
+        <pre>{JSON.stringify(products, null, 2)}</pre>
 
         <div className={styles.category}>
           <a href="../product">
+          {products.images.map((image, index) => {
+              return (
+                <img
+                  key={index}
+                  src={image}
+                  
+                />
+              );
+            })}
             <img src={shirt1JPG} />
           </a>
           <a href="../product">
