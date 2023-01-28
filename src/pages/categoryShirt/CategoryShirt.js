@@ -29,11 +29,13 @@ function CategoryShirt() {
     <>
       <div className={styles.container}>
         <h2>کفش اسپرت</h2>
-        <pre>{JSON.stringify(products, null, 2)}</pre>
-
+        {/* <pre>{JSON.stringify(products, null, 2)}</pre> */}
+        <pre>{JSON.stringify(products[2].title,null,2)}</pre>
+        <img src={JSON.stringify(products[2].title,null,2)}></img>
+       
         <div className={styles.category}>
           <a href="../product">
-          {products.images.map((image, index) => {
+          {/* {products.images.map((image, index) => {
               return (
                 <img
                   key={index}
@@ -41,7 +43,7 @@ function CategoryShirt() {
                   
                 />
               );
-            })}
+            })} */}
             <img src={shirt1JPG} />
           </a>
           <a href="../product">
